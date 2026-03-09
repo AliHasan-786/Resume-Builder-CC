@@ -7,9 +7,12 @@
   "plugins": [
     {
       "name": "resume-builder",
-      "source": "./",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/AliHasan-786/Resume-Builder-CC.git"
+      },
       "description": "AI-powered resume & cover letter generator with dual ATS + HR scoring. Works for any profession — software engineers, marketers, lawyers, finance, healthcare, and more.",
-      "version": "1.2.1"
+      "version": "1.2.2"
     }
   ]
 }
